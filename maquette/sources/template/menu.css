@@ -1,0 +1,41 @@
+a.menu,a.menu:link,a.menu:visited,a.menu:active{
+	color:#2d2222;
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	height:20px;
+	text-decoration:none;
+	width:auto;
+	vertical-align:bottom;
+	padding:0px 5px;
+	padding-top: 3px;
+	border-left:1px solid #2d2222;
+	padding-left:20px;
+	padding-right:20px;
+
+
+}
+a.menu:hover{
+	color:#84bc43;
+}
+.menu_sel{background:#1c445b;color:#fff;display:block;float:left;font-family:Verdana, Geneva, sans-serif;font-size:12px;height:38px;margin-left:22px;margin-right:22px;text-align:center;text-decoration:none;width:auto}
+.menu_credits{display:block;float:left;font-size:12px;font-style:normal;font-weight:400;text-align:left;text-decoration:none;width:100%;    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.big_credit{
+	font-size:18px;
+	margin-bottom:10px;
+	
+}
+
+#menu{list-style-type:none}.titre{float:left;margin:auto;padding:0}
+.smenu{background:#1c445b;display:none;font-size:14px;list-style-type:none;padding:12px;text-align:left;text-decoration:none;width:auto}
+.smenu a{color:#fff;height:auto;margin-bottom:2px;text-decoration:none;width:100%}
+.titre:hover .smenu{display:block;margin-top:120px}.titre .smenu{position:absolute}ul,li{margin:0;padding:0}.stitre:hover .ssmenu{display:block;margin-left:80px}.ssmenu{background:#000;border:#fff 1px solid;display:none;list-style-type:none;text-decoration:none;width:78px}.ssmenu a{height:auto;text-decoration:none;width:auto}.sstitre:hover a{background:#09F;display:block}#surmenu{background:#FFF;float:left;margin-left:200px;width:600px}#m1{}.icons{display:block;float:left;height:30px;margin-right:25px;margin-top:5px;text-decoration:none;width:30px}#home{background:url(back/icones.png) no-repeat}#link{background:url(back/icones.png) no-repeat;background-position:-30px}#contact{background:url(back/icones.png) no-repeat;background-position:-88px}#facebook{background:url(back/icones.png) no-repeat;background-position:-59px;float:right;margin-right:0}.stitre a,.stitre:hover a,.sstitre a{display:block}
+
+#navigation li:first-child > .menu{ 
+	border-left:none;
+
+	
+}

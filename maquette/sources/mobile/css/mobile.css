@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------mobile------------------*/
+
+.icon-accueil{
+	background:url(back/home.png) no-repeat;
+	background-position:10px center;
+}
+.icon-web{
+	background:url(back/web.png) no-repeat;
+	background-position:10px center;
+}
+.icon-form{
+	background:url(back/formation.png) no-repeat;
+	background-position:10px center;
+}
+.icon-cons{
+	background:url(back/conseils.png) no-repeat;
+	background-position:10px center;
+}
+.icon-real{
+	background:url(back/real.png) no-repeat;
+	background-position:10px center;
+}
+.icon-cont{
+	background:url(back/contact.png) no-repeat;
+	background-position:10px center;
+}
+
+.container{
+	/*background:#333333;*/
+		
+}
+#wrapper{
+	/*background:#FFFFFF;*/
+	
+}

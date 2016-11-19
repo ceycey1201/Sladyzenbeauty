@@ -1,0 +1,315 @@
+/*-----------------------ipad---------*/
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+#header,#center_header{
+	width:100%;
+}
+#container,#wrapper{
+	width:100%;
+}
+#pied{
+	width:100%;
+}
+.case{
+	float:left;
+	width:33%;
+	padding-right:31%;
+	color:#F7F7F7;
+	padding-top:150px;
+	margin-left:1%;
+	/*margin-right:1%;*/
+	margin-top:1%;
+	/*margin-bottom:1%;*/
+	
+}
+.case_min{
+	width:28%;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+/*#content{
+	width:640px;
+	margin-left:20px;
+	
+}*/
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+
+}
+
+@media screen and (max-height: 700px) {
+/*#prev_anim,#next_anim{
+	display:none;	
+}
+
+#animation, #zone, .swipe{
+	height:300px;
+
+}
+.texte_anim{
+	margin-top:-1px;
+	font-size:50px;
+	
+}
+.texte{
+	font-size:50px;
+}*/
+/**/
+}
+
+
+/*----------------------iphone-------*/
+
+@media screen and (max-device-width: 500px){
+
+}
+@media screen and (max-device-width: 750px) and (orientation:landscape){
+/*body{
+	font-size:24px;
+}
+div{
+	
+}
+a{
+	
+}
+h1,h2{
+	font-size:32px;
+	
+}
+#header,#center_header{
+	width:100%;
+}
+#pied{
+   position: none;
+   text-align:left;
+   width:100%;
+   margin:0px;
+}
+#animation{
+	display:none;
+}
+#container{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+#wrapper,#content{
+	width:100%;
+	
+}
+.savoirplus{
+	width:200px;
+	
+}
+#left{
+	width:100%;
+	margin:0px;
+	
+}
+#little_news{
+	width:100%;
+	
+}
+a.menu,a.menu:link,a.menu:visited,a.menu:active{
+	font-size:27px;
+	height:50px;
+	width:140px;
+	padding-top:50px;
+}
+a.menu:hover{ background:none;}
+
+#navigation li:nth-child(n+5) { 
+	display:none;
+	
+}
+.actu_liste{
+	height:auto;
+	margin-bottom:30px;
+	
+}*/
+}
+@media screen and (max-device-width: 500px) and (orientation:portrait){
+body{
+	font-size:26px;
+	
+}
+#logo{
+	overflow:hidden;
+	width:362px;
+	height:156px;
+	margin:10px auto;
+}
+#logo img{
+	margin-top:-206px;
+	width:100%;
+	
+}
+#navigation{
+	display:none;
+	
+}
+#container,#wrapper{
+	width:100%;
+	
+}
+.case{
+	float:left;
+	width:48%;
+	height:250px;
+	display:block;
+	font-size:50px;
+	text-align:center;
+	padding-right:50%;
+	color:#F7F7F7;
+	padding-top:150px;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+	
+}
+.case .icone_case, .case_mini .icone_case{
+	width:100px;
+	
+	
+}
+/**/
+.case_mini{
+	float:left;
+	width:48%;
+	height:350px;
+	display:block;
+	padding-top:150px;
+	color:#F7F7F7;
+	font-size:50px;
+	margin-left:1%;
+	margin-right:1%;
+	margin-top:1%;
+	margin-bottom:1%;
+	text-align:center;
+}
+.zone_footer{
+	display:none;
+	
+}
+#left{
+	width:100%;
+	border:none;
+	font-size:24px;
+}
+#left img{
+	width:250px;
+	
+}
+.menu-trigger{
+	display:block;
+	width:200px;
+}
+.no-csstransforms3d .mp-pusher,
+.no-js .mp-pusher {
+	padding-left: 300px;
+}
+#mp-menu{
+	display:block;/**/
+}
+/*h1,h2{
+	font-size:34px;
+	
+}
+#header{
+	 height:190px;
+}
+#header,#center_header{
+	 width:100%;
+
+}
+
+#logo{
+	height:190px;
+	width:300px;
+	margin-left:0px;
+}
+#logo img{
+	width:100%;
+	
+}
+#content{
+	width:90%;
+	margin-left:5%;
+	
+}
+#ligne_arbo, #ligne_arbo a{
+	font-size:22px;
+	
+}
+#left{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	width:90%;
+	margin-left:5%;
+	margin-top:50px;
+	
+}
+.little_news{
+	height:auto;
+	margin-bottom:30px;
+	min-height:119px;
+	width:100%;
+}
+a.menu,a.menu:link,a.menu:visited,a.menu:active{
+	font-size:27px;
+	height:50px;
+	width:140px;
+	padding-top:100px;
+	margin-left:10px;
+}
+a.menu:hover{ background:none;}
+
+#navigation li:nth-child(n+5) { 
+	display:none;
+	
+}
+#prev_anim,#next_anim{
+	display:none;	
+}
+.ligne_enfant{
+	background-size: 150px;
+	padding-left:160px;
+	margin-left:0px;
+	width:81%;
+}
+#pied{
+   position: none;
+   text-align:left;
+   width:100%;
+   margin:0px;
+}
+.actu_liste{
+	height:auto;
+	margin-bottom:50px;
+	margin-top:10px;
+	
+}
+.zone_footer{
+	display:none;
+	
+}
+#footer,#footer a{
+	font-size:18px;
+	
+}*/
+}
